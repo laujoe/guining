@@ -17,7 +17,6 @@ https://creativecommons.org/licenses/by-nc-sa/4.0/
 植入广告或内购获利，或将本项目自有内容用于商业产品。
 具体授权范围以各许可全文为准。
 
-这是有非商业限制的 source-available 项目，不宣称符合 OSI 开源定义。
 本声明不改变第三方作品原有权利：
 - 霞鹜文楷：SIL Open Font License 1.1。
 - Kevin MacLeod 六首配乐：CC BY 4.0。

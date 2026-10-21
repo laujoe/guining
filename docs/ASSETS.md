@@ -1,12 +1,15 @@
-# 素材记录
+# 素材说明
 
-项目作者于 2026-10-20 确认其提供的剧情、参考图和结局原图有权公开分发。公开版本保留游戏实际使用的成品素材；原始附件和本机生成记录不随源码快照发布。
+游戏美术由 AI 辅助生成作品、作者提供的原图及衍生素材组成。自有素材使用 CC BY-NC-SA 4.0，第三方字体与音乐保留原许可。
 
-- `assets/*.png`：水墨背景、人物立绘、四季图集、小游戏图集等；以 AI 辅助生成及作者提供的参考素材制作。
-- `assets/jade/`：完整玉佩与碎玉纹理，依作者提供的圆璧参考制作。
-- `assets/ending/`：作者提供的落水、离魂与灯下团圆原图，配合程序镜头演出。
-- `assets/ding-story/`、`student-story/`、`wife-arrival/`、`wife-farewell/`：剧情演出图及衍生素材。
-- `assets/*.wav`：程序合成音效或历史合成音乐。当前配乐选曲见 `scripts/music_library.gd`。
-- `assets/fonts/`、`assets/music/`：第三方作品，适用各自许可，不能改为本项目的非商业许可。
+| 路径 | 内容 |
+| --- | --- |
+| `assets/*.png` | 水墨背景、人物立绘、四季与小游戏图集 |
+| `assets/jade/` | 完整玉佩与碎玉纹理 |
+| `assets/ending/` | 终章插画 |
+| `assets/ding-story/`、`student-story/`、`wife-arrival/`、`wife-farewell/` | 剧情演出插画 |
+| `assets/*.wav`、`assets/music/*.wav` | 程序生成音效与音乐素材 |
+| `assets/fonts/` | 霞鹜文楷与字体许可 |
+| `assets/music/kevin-macleod/` | Kevin MacLeod 配乐 |
 
-除已明确标记的第三方作品外，本目录描述的自有素材依 `NOTICE.txt` 适用 CC BY-NC-SA 4.0。AI 辅助来源不等同于独占权保证；本许可仅授予作者实际拥有或能够授予的权利。
+游戏配乐由 `scripts/music_library.gd` 配置。完整署名见 [NOTICE](../NOTICE.txt) 和 [第三方说明](../THIRD-PARTY-NOTICES.md)。

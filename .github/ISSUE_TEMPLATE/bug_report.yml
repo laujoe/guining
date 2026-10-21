@@ -1,4 +1,4 @@
-name: 试玩问题
+name: 问题反馈
 description: 报告归宁的错误或操作障碍
 body:
   - type: input
@@ -17,6 +17,6 @@ body:
     id: steps
     attributes:
       label: 复现步骤
-      description: 请说明所在章节、操作、预期结果与实际结果。不要附带个人信息或签名密钥。
+      description: 请说明所在章节、操作、预期结果与实际结果。截图和日志请隐去个人信息。
     validations:
       required: true

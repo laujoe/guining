@@ -2,84 +2,74 @@
 
 **纸上留人，灯下留席。**
 
-一款水墨叙事游戏，以三段可自由选择顺序的回忆，讲述一次归途。包含视觉小说、第一人称提灯迷宫、三维悬浮书楼、随机理稿、纸兵与纸龙反弹、四季追信、拼玉及完整终章。
-
-**非商业源码公开，禁止未经授权的商业使用。** 允许在许可范围内试玩、学习、修改和非商业分享。本项目带有非商业限制，因此不宣称属于 OSI 定义的开源软件。
+《归宁》（又名《一叶生》）是一款由浙江大学学生团队主导创作的水墨叙事游戏，改编自《聊斋志异》中的叶生故事。跟随叶生，重访故友、学生与妻子的三段记忆，在提灯寻路、转镜接影与整理旧稿之间，拾回归途的线索。
 
 ![归宁场景图集](assets/backgrounds.png)
 
-## 下载试玩
+## 下载
 
-请到 [Releases 试玩下载页](https://github.com/laujoe/guining/releases/tag/v0.1.3) 下载以下文件：
+在 [Releases](https://github.com/laujoe/guining/releases/latest) 下载游戏。游戏离线运行，无需注册账户或安装 Godot。
 
-| 文件 | 用途 |
-| --- | --- |
-| `Guining-Windows-0.1.3-Setup.exe` | Windows 10/11 x64 安装版，当前用户安装，可卸载 |
-| `Guining-Windows-0.1.3.zip` | Windows 便携版，完整解压后运行 `Guining.exe` |
-| `Guining-Android-0.1.3-test.apk` | Android ARM64 / x86_64 横屏测试版，使用调试签名 |
-| `SHA256SUMS.txt` | 文件校验值 |
+| 平台 | 下载 | 使用方式 |
+| --- | --- | --- |
+| Windows | [安装版](https://github.com/laujoe/guining/releases/download/v0.1.3/Guining-Windows-0.1.3-Setup.exe) | 双击安装后启动 |
+| Windows | [便携版](https://github.com/laujoe/guining/releases/download/v0.1.3/Guining-Windows-0.1.3.zip) | 完整解压后运行 `Guining.exe` |
+| Android | [APK](https://github.com/laujoe/guining/releases/download/v0.1.3/Guining-Android-0.1.3-test.apk) | 安装后横屏游玩 |
 
-游戏离线运行，不需要安装 Godot、不需要账户。Windows 需要支持 OpenGL 3.3 的显卡；Android 需要 Android 7.0（API 24）以上、支持 OpenGL ES 3.0 的 64 位设备。APK 是侧载试玩包，尚未通过 Android 真机完整流程与性能验收，不是商店发行版。不同签名的后续 APK 可能不能覆盖安装，卸载前务必备份存档。
+系统要求：Windows 10/11 x64、支持 OpenGL 3.3 的显卡；Android 7.0 及以上、支持 OpenGL ES 3.0 的 64 位设备。下载文件的校验值见 Release 中的 `SHA256SUMS.txt`。
 
-Windows 程序和安装包尚未做商业代码签名。Windows 安装版与便携版共用 `%APPDATA%\Guining` 存档；卸载器保留玩家存档。Android 使用应用自己的沙盒目录。
+## 游戏内容
 
-## 操作与辅助
+- **三段记忆**：自由选择回忆顺序，重访叶生生命中的故人。
+- **借光与转镜**：提灯探索丁府廊道，在悬浮书楼中调整视角、接通墨影。
+- **理稿与批阵**：整理散落的书稿，挥笔应对纸兵与纸龙。
+- **四季追信与拼玉**：穿行四季，收集记忆碎片，拼合玉佩。
+- **记忆图谱**：回看已保存的节点，也可在暂停菜单中“记下此刻”。
+
+提供文字大小、音量、减少动态、宽松笔锋和单击代替长按等设置。
+
+## 操作
 
 | 场景 | 键鼠 | 触屏 |
 | --- | --- | --- |
-| 对话 | 点击继续 / E / 空格 | 点击“继续”，首次显示全文，再点推进 |
-| 借光 | WASD / 方向键；拖动转头；M 地图 | 底部前进、后退、左右转向，可双指组合；顶部地图 |
-| 转镜 | Q/E 转视角，点击“入影”，拖动移灯 | 屏幕按钮与滑杆 |
-| 理稿 | 点击最上层牌，同类三张消除 | 点击牌；撤销、暂存、取回均有按钮 |
-| 批阵 | WASD / 方向键；J 挥笔；空格闪避 | 左侧方向键，右侧挥笔和闪避，支持双指 |
-| 追信 | 空格跳，S 低身，按住 E 顶风 | 跳、低身、按住顶风，可组合操作 |
+| 对话 | 点击继续 / E / 空格 | 点击“继续” |
+| 借光 | WASD / 方向键；拖动转头；M 地图 | 前进、后退、左右转向按钮；地图按钮 |
+| 转镜 | Q/E 转视角；点击“入影”；拖动移灯 | 屏幕按钮与滑杆 |
+| 理稿 | 点击最上层牌，同类三张消除 | 点击牌；使用撤销、暂存、取回按钮 |
+| 批阵 | WASD / 方向键；J 挥笔；空格闪避 | 方向、挥笔和闪避按钮，支持组合操作 |
+| 追信 | 空格跳；S 低身；按住 E 顶风 | 跳、低身、顶风按钮，支持组合操作 |
 | 拼玉 | 拖动；Tab 选片、方向键、E 放置 | 拖动碎片；30 秒后可用辅助吸附 |
-| 暂停 | Esc / 窗口失焦 | 暂停按钮 / Android 返回键 |
+| 暂停 | Esc | 暂停按钮 / Android 返回键 |
 
-提供文字大小、音量、减少动态、宽松笔锋和单击代替长按。主菜单“记忆图谱”可查看历史存档；暂停时“记下此刻”另存一卷。读取旧卷前先保存当前进度；设置不随读档回滚。新故事会确认并归档旧存档；坏存档和较新 schema 不会被静默覆盖。
+对话第一次点击显示全文，再次点击推进。Windows 安装版与便携版共用 `%APPDATA%\Guining` 存档，卸载时保留进度；Android 存档位于应用目录。开始新故事会归档原有进度。
 
-## 从源码运行
+## 开发
 
-1. 安装 **Godot 4.7.2 Standard**（无需 .NET），导入本目录的 `project.godot`。
-2. 入口 `scenes/main.tscn`，按 F5 运行。源码快照不需要开发插件、SDK、API Key 或其他游戏工程。
-3. 导出时安装相同版本的 Godot 导出模板。PowerShell 工具要求 **PowerShell 7**。
+使用 **Godot 4.7.2 Standard**，GDScript 与 Compatibility 渲染。导入 `project.godot`，按 F5 运行；入口为 `scenes/main.tscn`。
 
-```powershell
-$env:GODOT_PATH = '你的 Godot 可执行文件完整路径'
-pwsh -File tools/run-tests.ps1
-pwsh -File tools/package-windows.ps1 -PackageName Guining-Windows-0.1.3
-```
+| 目录 | 内容 |
+| --- | --- |
+| `scripts/` | 游戏规则、界面与演出；核心规则位于 `game_core.gd` |
+| `scenes/` | 游戏入口与记忆图谱界面 |
+| `data/` | 对白、叙事和小游戏配置 |
+| `assets/` | 美术、字体、音乐与许可 |
+| `tests/` | 自动测试 |
+| `tools/` | 测试、导出与打包脚本 |
 
-Android、Windows 安装器与干净源码打包见 [构建说明](docs/BUILDING.md)。GitHub 上传步骤见 [发布说明](docs/RELEASING.md)。
+构建和测试见 [构建指南](docs/BUILDING.md)，版本更新见 [0.1.3 更新记录](docs/RELEASE-0.1.3.md)。
 
-本次构建与验收状态见 [0.1.3 试玩记录](docs/RELEASE-0.1.3.md)。
+## 许可
 
-## 工程结构
-
-- `scripts/game_core.gd`：规则、进度条件、随机理稿与 schema 1 存档验证。
-- `scripts/main.gd`：流程、界面与输入；各演出和三维场景独立脚本。
-- `scenes/`：游戏入口与记忆图谱界面。
-- `data/`：对白、叙事、小游戏配置与检查点。
-- `assets/`：游戏美术、字体、音乐和离线许可。
-- `tests/`：规则、交互、存档、三维谜题和多指触屏回归。
-- `tools/`：测试、导出、Windows 安装器、Android 与源码打包。
-
-## 许可与来源
+本项目以非商业许可公开源码，允许在许可范围内学习、修改和分享，**禁止未经授权的商业使用**。
 
 | 范围 | 许可 |
 | --- | --- |
-| 项目自有代码与工程配置 | [PolyForm Noncommercial 1.0.0](LICENSE) |
+| 自有代码与工程配置 | [PolyForm Noncommercial 1.0.0](LICENSE) |
 | 自有剧情、数据、美术、音效和文档 | [CC BY-NC-SA 4.0](licenses/CC-BY-NC-SA-4.0.txt) |
-| 霞鹜文楷 | SIL Open Font License 1.1 |
-| Kevin MacLeod 配乐 | CC BY 4.0 |
-| Godot 引擎及其组件 | 原有 MIT 等许可 |
+| 第三方字体、音乐与引擎 | 各自原许可，见 [第三方说明](THIRD-PARTY-NOTICES.md) |
 
-请保留署名、许可及修改说明。不能将本游戏或自有素材用于销售、广告变现、内购或其他未经授权的商业用途；具体范围以许可全文为准。第三方作品原许可不受本项目非商业限制改变。
+美术包含 AI 辅助生成作品与作者提供的原图。署名和素材来源见 [NOTICE](NOTICE.txt) 与 [素材说明](docs/ASSETS.md)。
 
-美术包含 AI 辅助生成与作者提供的原图。详见 [NOTICE](NOTICE.txt)、[第三方说明](THIRD-PARTY-NOTICES.md) 和 [素材记录](docs/ASSETS.md)。
+## 反馈与贡献
 
-## 当前边界与反馈
-
-当前版本是完整流程试玩，未完成五人盲测、目标手机与集显性能验收、商店提交。书楼采用固定观景站位的透视谜题；没有配音。Android 已加入触屏入口，但多种屏幕比例、系统手势与长时间游玩仍需真机测试。
-
-欢迎按 [贡献指南](CONTRIBUTING.md) 提交问题与改进。请附上游戏版本、设备、复现步骤和预期结果。
+欢迎通过 [Issues](https://github.com/laujoe/guining/issues) 反馈问题，请附上版本、设备与复现步骤。参与开发请阅读 [贡献指南](CONTRIBUTING.md)。

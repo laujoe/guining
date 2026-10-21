@@ -23,3 +23,18 @@ assets/fonts/YunFengJingLongXingShu.ttf
 assets/fonts/YunFengJingLongXingShu.ttf.import
 # Raw briefs, reference attachments and old internal reports stay local.
 docs/references/
+
+# Local credentials, editor state and private working files.
+.codex/
+.agents/
+.aws/
+.ssh/
+.idea/
+.vscode/
+promo/
+*.key
+*.p8
+*.bak
+*.dmp
+*.pdb
+saves/
