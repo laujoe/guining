@@ -1,0 +1,25 @@
+.godot/
+.test-output/
+.release/
+builds/
+dist/
+*.tmp
+addons/
+.private/
+.env
+.env.*
+!.env.example
+*.keystore
+*.jks
+*.p12
+*.pfx
+*.pem
+export_credentials.cfg
+*.log
+.DS_Store
+Thumbs.db
+# Historical font retained locally; public packages use OFL WenKai only.
+assets/fonts/YunFengJingLongXingShu.ttf
+assets/fonts/YunFengJingLongXingShu.ttf.import
+# Raw briefs, reference attachments and old internal reports stay local.
+docs/references/

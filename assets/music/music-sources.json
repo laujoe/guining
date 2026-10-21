@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Ripples",
+    "author": "Kevin MacLeod",
+    "license": "CC-BY-4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "page": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100691",
+    "download": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Ripples.mp3",
+    "file": "kevin-macleod/ripples.mp3",
+    "sha256": "A2A2C0DF863955D4AE4801AAE7CF51C716E255AADFD7E87419228C5C5182C87C",
+    "retrieved": "2026-10-18",
+    "modifications": "Original MP3; runtime volume, repeat, transition fades only"
+  },
+  {
+    "title": "Eastern Thought",
+    "author": "Kevin MacLeod",
+    "license": "CC-BY-4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "page": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100682",
+    "download": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Eastern%20Thought.mp3",
+    "file": "kevin-macleod/eastern-thought.mp3",
+    "sha256": "5DAAB860DE26F2C47701958A21DCBE6C6283A7955863E72FE9CA5A536D6D552D",
+    "retrieved": "2026-10-18",
+    "modifications": "Original MP3; runtime volume, repeat, transition fades only"
+  },
+  {
+    "title": "Shenyang",
+    "author": "Kevin MacLeod",
+    "license": "CC-BY-4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "page": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1600066",
+    "download": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Shenyang.mp3",
+    "file": "kevin-macleod/shenyang.mp3",
+    "sha256": "1CF2E0F57F820D82E9066BA4DCA076735AEDD512BC1909FDAA2E0065BD866786",
+    "retrieved": "2026-10-18",
+    "modifications": "Original MP3; runtime volume, repeat, transition fades only"
+  },
+  {
+    "title": "Asian Drums",
+    "author": "Kevin MacLeod",
+    "license": "CC-BY-4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "page": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100396",
+    "download": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Asian%20Drums.mp3",
+    "file": "kevin-macleod/asian-drums.mp3",
+    "sha256": "C715F9F9AF67505447E8083F50206799EC8563157AAB6FDC80E7672698CC8A7D",
+    "retrieved": "2026-10-18",
+    "modifications": "Original MP3; runtime volume, repeat, transition fades only"
+  },
+  {
+    "title": "Long Note Three",
+    "author": "Kevin MacLeod",
+    "license": "CC-BY-4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "page": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100424",
+    "download": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Long%20Note%20Three.mp3",
+    "file": "kevin-macleod/long-note-three.mp3",
+    "sha256": "E75ABA4B754228C059E1F442E5D7C74D89FCE876CE84CC0EA51DBFAB4F2A9E27",
+    "retrieved": "2026-10-18",
+    "modifications": "Original MP3; runtime volume, repeat, transition fades only"
+  },
+  {
+    "title": "Willow and the Light",
+    "author": "Kevin MacLeod",
+    "license": "CC-BY-4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "page": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100591",
+    "download": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Willow%20and%20the%20Light.mp3",
+    "file": "kevin-macleod/willow-and-the-light.mp3",
+    "sha256": "4916BA695C95E49E46E1C8E7BFEEF402AAC552554FC584FBB1A826E038E1E524",
+    "retrieved": "2026-10-18",
+    "modifications": "Original MP3; runtime volume, repeat, transition fades only"
+  }
+]

@@ -1,0 +1,23 @@
+name: Godot regression
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  regression:
+    runs-on: windows-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Godot 4.7.2 Standard
+        shell: pwsh
+        run: |
+          $url = 'https://github.com/godotengine/godot-builds/releases/download/4.7.2-stable/Godot_v4.7.2-stable_win64.exe.zip'
+          Invoke-WebRequest $url -OutFile "$env:RUNNER_TEMP/godot.zip"
+          Expand-Archive "$env:RUNNER_TEMP/godot.zip" "$env:RUNNER_TEMP/godot"
+          "GODOT_PATH=$env:RUNNER_TEMP/godot/Godot_v4.7.2-stable_win64.exe" >> $env:GITHUB_ENV
+      - name: Run isolated regression
+        shell: pwsh
+        run: ./tools/run-tests.ps1

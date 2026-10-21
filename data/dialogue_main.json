@@ -1,0 +1,634 @@
+{
+  "schemaVersion": 1,
+  "sequences": [
+    {
+      "sequenceId": "Prologue",
+      "requiresInscriptionSeen": false,
+      "lines": [
+        {
+          "lineId": "Prologue_01",
+          "speakerId": "Ye",
+          "text": "这是哪里……我怎会在这里？",
+          "portraitId": "Ye",
+          "voiceCue": "",
+          "minDisplaySeconds": 1.5,
+          "waitForInput": true,
+          "eventAfter": ""
+        },
+        {
+          "lineId": "Prologue_02",
+          "speakerId": "Ye",
+          "text": "叶生……是我的名字。是要回家报喜么？",
+          "portraitId": "Ye",
+          "voiceCue": "",
+          "minDisplaySeconds": 1.5,
+          "waitForInput": true,
+          "eventAfter": "ReportInspected"
+        },
+        {
+          "lineId": "Prologue_03",
+          "speakerId": "Ding",
+          "text": "叶生，你来了。",
+          "portraitId": "Ding",
+          "voiceCue": "",
+          "minDisplaySeconds": 1.5,
+          "waitForInput": true,
+          "eventAfter": "PrologueCompleted"
+        }
+      ]
+    },
+    {
+      "sequenceId": "DingIntro",
+      "requiresInscriptionSeen": false,
+      "lines": [
+        {
+          "lineId": "DingIntro_01",
+          "speakerId": "Ding",
+          "text": "叶先生，进来坐。",
+          "portraitId": "Ding",
+          "voiceCue": "",
+          "minDisplaySeconds": 1.5,
+          "waitForInput": true,
+          "eventAfter": ""
+        },
+        {
+          "lineId": "DingIntro_02",
+          "speakerId": "Ye",
+          "text": "还有两处未妥，先请您看。",
+          "portraitId": "Ye",
+          "voiceCue": "",
+          "minDisplaySeconds": 1.5,
+          "waitForInput": true,
+          "eventAfter": "DingIntroCompleted"
+        }
+      ]
+    },
+    {
+      "sequenceId": "DingLampEcho",
+      "requiresInscriptionSeen": false,
+      "lines": [
+        {
+          "lineId": "DingLampEcho_01",
+          "speakerId": "Ding",
+          "text": "灯暗了，莫伤眼。",
+          "portraitId": "Ding",
+          "voiceCue": "",
+          "minDisplaySeconds": 1.5,
+          "waitForInput": false,
+          "eventAfter": ""
+        }
+      ]
+    },
+    {
+      "sequenceId": "DingDinner",
+      "requiresInscriptionSeen": false,
+      "lines": [
+        {
+          "lineId": "DingDinner_01",
+          "speakerId": "Ding",
+          "text": "文章放着，明日再看。",
+          "portraitId": "Ding",
+          "voiceCue": "",
+          "minDisplaySeconds": 1.5,
+          "waitForInput": true,
+          "eventAfter": ""
+        },
+        {
+          "lineId": "DingDinner_02",
+          "speakerId": "Ye",
+          "text": "这篇改了三夜，尚怕辜负您的期望。",
+          "portraitId": "Ye",
+          "voiceCue": "",
+          "minDisplaySeconds": 1.5,
+          "waitForInput": true,
+          "eventAfter": ""
+        },
+        {
+          "lineId": "DingDinner_03",
+          "speakerId": "Ding",
+          "text": "再用心，也得吃饭。等你这顿，倒比等文章久。",
+          "portraitId": "Ding",
+          "voiceCue": "",
+          "minDisplaySeconds": 1.5,
+          "waitForInput": true,
+          "eventAfter": "DinnerSeatReady"
+        }
+      ]
+    },
+    {
+      "sequenceId": "DingPastChoice",
+      "requiresInscriptionSeen": false,
+      "lines": [
+        {
+          "lineId": "DingPastChoice_01",
+          "speakerId": "Ye",
+          "text": "待放榜有了好消息，再好好陪您一回。",
+          "portraitId": "Ye",
+          "voiceCue": "",
+          "minDisplaySeconds": 1.5,
+          "waitForInput": true,
+          "eventAfter": ""
+        },
+        {
+          "lineId": "DingPastChoice_02",
+          "speakerId": "Ding",
+          "text": "一顿饭，何必等到那时。",
+          "portraitId": "Ding",
+          "voiceCue": "",
+          "minDisplaySeconds": 1.5,
+          "waitForInput": true,
+          "eventAfter": ""
+        },
+        {
+          "lineId": "DingPastChoice_03",
+          "speakerId": "Ye",
+          "text": "我还想再改两句。",
+          "portraitId": "Ye",
+          "voiceCue": "",
+          "minDisplaySeconds": 1.5,
+          "waitForInput": true,
+          "eventAfter": "DinnerMemorySeen"
+        }
+      ]
+    },
+    {
+      "sequenceId": "DingReflection",
+      "requiresInscriptionSeen": false,
+      "lines": [
+        {
+          "lineId": "DingReflection_01",
+          "speakerId": "Ye",
+          "text": "我只记得您催我读书，却忘了您也等我坐下。",
+          "portraitId": "Ye",
+          "voiceCue": "",
+          "minDisplaySeconds": 1.5,
+          "waitForInput": true,
+          "eventAfter": "DingReflectionHeard"
+        }
+      ]
+    },
+    {
+      "sequenceId": "DingShardEcho",
+      "requiresInscriptionSeen": false,
+      "lines": [
+        {
+          "lineId": "DingShardEcho_01",
+          "speakerId": "Ding",
+          "text": "饭凉了，热一热便是。",
+          "portraitId": "Ding",
+          "voiceCue": "",
+          "minDisplaySeconds": 1.5,
+          "waitForInput": true,
+          "eventAfter": ""
+        }
+      ]
+    },
+    {
+      "sequenceId": "StudentIntro",
+      "requiresInscriptionSeen": false,
+      "lines": [
+        {
+          "lineId": "StudentIntro_01",
+          "speakerId": "Ye",
+          "text": "这是文章，还是废纸？",
+          "portraitId": "Ye",
+          "voiceCue": "",
+          "minDisplaySeconds": 1.5,
+          "waitForInput": true,
+          "eventAfter": ""
+        },
+        {
+          "lineId": "StudentIntro_02",
+          "speakerId": "Student",
+          "text": "请先生救一救，便还是文章。",
+          "portraitId": "Student",
+          "voiceCue": "",
+          "minDisplaySeconds": 1.5,
+          "waitForInput": true,
+          "eventAfter": "ManuscriptEnabled"
+        }
+      ]
+    },
+    {
+      "sequenceId": "StudentArrowGag",
+      "requiresInscriptionSeen": false,
+      "lines": [
+        {
+          "lineId": "StudentArrowGag_01",
+          "speakerId": "Ye",
+          "text": "笔锋不必对着先生。",
+          "portraitId": "Ye",
+          "voiceCue": "",
+          "minDisplaySeconds": 1.5,
+          "waitForInput": false,
+          "eventAfter": ""
+        },
+        {
+          "lineId": "StudentArrowGag_02",
+          "speakerId": "Student",
+          "text": "这一笔，还不听使唤。",
+          "portraitId": "Student",
+          "voiceCue": "",
+          "minDisplaySeconds": 1.5,
+          "waitForInput": false,
+          "eventAfter": ""
+        }
+      ]
+    },
+    {
+      "sequenceId": "StudentScroll",
+      "requiresInscriptionSeen": false,
+      "lines": [
+        {
+          "lineId": "StudentScroll_01",
+          "speakerId": "Student",
+          "text": "先生说，文章须有气势。",
+          "portraitId": "Student",
+          "voiceCue": "",
+          "minDisplaySeconds": 1.5,
+          "waitForInput": true,
+          "eventAfter": ""
+        },
+        {
+          "lineId": "StudentScroll_02",
+          "speakerId": "Ye",
+          "text": "这气势，倒先冲着我来了。",
+          "portraitId": "Ye",
+          "voiceCue": "",
+          "minDisplaySeconds": 1.5,
+          "waitForInput": true,
+          "eventAfter": "PaperArmyReady"
+        }
+      ]
+    },
+    {
+      "sequenceId": "StudentReview",
+      "requiresInscriptionSeen": false,
+      "lines": [
+        {
+          "lineId": "StudentReview_01",
+          "speakerId": "Student",
+          "text": "这回没有照着范文写。先生看，可还成文章？",
+          "portraitId": "Student",
+          "voiceCue": "",
+          "minDisplaySeconds": 1.5,
+          "waitForInput": true,
+          "eventAfter": ""
+        },
+        {
+          "lineId": "StudentReview_02",
+          "speakerId": "Ye",
+          "text": "有你自己的意思了。此处，再说清楚些。",
+          "portraitId": "Ye",
+          "voiceCue": "",
+          "minDisplaySeconds": 1.5,
+          "waitForInput": true,
+          "eventAfter": "ReviewStrokeReady"
+        }
+      ]
+    },
+    {
+      "sequenceId": "StudentReflection",
+      "requiresInscriptionSeen": false,
+      "lines": [
+        {
+          "lineId": "StudentReflection_01",
+          "speakerId": "Student",
+          "text": "先生说过，写清自己所见，比把别人的句子背熟更要紧。",
+          "portraitId": "Student",
+          "voiceCue": "",
+          "minDisplaySeconds": 1.5,
+          "waitForInput": true,
+          "eventAfter": ""
+        },
+        {
+          "lineId": "StudentReflection_02",
+          "speakerId": "Ye",
+          "text": "你记住的，原来不止应试的句法。",
+          "portraitId": "Ye",
+          "voiceCue": "",
+          "minDisplaySeconds": 1.5,
+          "waitForInput": true,
+          "eventAfter": "StudentReflectionSeen"
+        }
+      ]
+    },
+    {
+      "sequenceId": "StudentShardEcho",
+      "requiresInscriptionSeen": false,
+      "lines": [
+        {
+          "lineId": "StudentShardEcho_01",
+          "speakerId": "Student",
+          "text": "先生教过的，我一直记着。",
+          "portraitId": "Student",
+          "voiceCue": "",
+          "minDisplaySeconds": 1.5,
+          "waitForInput": true,
+          "eventAfter": ""
+        }
+      ]
+    },
+    {
+      "sequenceId": "WifeDeparture",
+      "requiresInscriptionSeen": false,
+      "lines": [
+        {
+          "lineId": "WifeDeparture_01",
+          "speakerId": "Wife",
+          "text": "家书刚写好尚未来得及寄出",
+          "portraitId": "Wife",
+          "voiceCue": "",
+          "minDisplaySeconds": 1.5,
+          "waitForInput": true,
+          "eventAfter": "RunnerTutorialReady",
+          "cue": "letter"
+        }
+      ]
+    },
+    {
+      "sequenceId": "WifeLetter",
+      "requiresInscriptionSeen": false,
+      "lines": [
+        {
+          "lineId": "WifeLetter_01",
+          "speakerId": "Letter",
+          "text": "功名若得，我替你欢喜；一时未得，也不必觉无颜以归。\n\n只盼春来与你种花，夏夜共坐檐下，秋时添衣，冬日同扫庭前雪。",
+          "portraitId": "Letter",
+          "voiceCue": "",
+          "minDisplaySeconds": 1.5,
+          "waitForInput": true,
+          "eventAfter": "LetterRead",
+          "cue": "full_letter"
+        }
+      ]
+    },
+    {
+      "sequenceId": "WifeReflection",
+      "requiresInscriptionSeen": false,
+      "lines": [
+        {
+          "lineId": "WifeReflection_01",
+          "speakerId": "Wife",
+          "text": "收好了，别再丢了。",
+          "portraitId": "Wife",
+          "voiceCue": "",
+          "minDisplaySeconds": 1.5,
+          "waitForInput": true,
+          "eventAfter": "",
+          "cue": "jade"
+        },
+        {
+          "lineId": "WifeReflection_02",
+          "speakerId": "Wife",
+          "text": "你看，下雪了。",
+          "portraitId": "Wife",
+          "voiceCue": "",
+          "minDisplaySeconds": 1.5,
+          "waitForInput": true,
+          "eventAfter": "",
+          "cue": "snow"
+        },
+        {
+          "lineId": "WifeReflection_03",
+          "speakerId": "Ye",
+          "text": "我这次回来，有个好消息——",
+          "portraitId": "Ye",
+          "voiceCue": "",
+          "minDisplaySeconds": 1.5,
+          "waitForInput": true,
+          "eventAfter": "",
+          "cue": "report"
+        },
+        {
+          "lineId": "WifeReflection_04",
+          "speakerId": "Wife",
+          "text": "我听着。陪我去檐下站一会儿吧。",
+          "portraitId": "Wife",
+          "voiceCue": "",
+          "minDisplaySeconds": 1.5,
+          "waitForInput": true,
+          "eventAfter": "",
+          "cue": "eaves"
+        },
+        {
+          "lineId": "WifeReflection_05",
+          "speakerId": "Ye",
+          "text": "外头冷，等我说完。",
+          "portraitId": "Ye",
+          "voiceCue": "",
+          "minDisplaySeconds": 1.5,
+          "waitForInput": true,
+          "eventAfter": "",
+          "cue": "ink"
+        },
+        {
+          "lineId": "WifeReflection_06",
+          "speakerId": "Wife",
+          "text": "……好。",
+          "portraitId": "Wife",
+          "voiceCue": "",
+          "minDisplaySeconds": 1.5,
+          "waitForInput": true,
+          "eventAfter": "",
+          "cue": "waiting"
+        },
+        {
+          "lineId": "WifeReflection_07",
+          "speakerId": "Ye",
+          "text": "分明写在这里……怎么会看不清？",
+          "portraitId": "Ye",
+          "voiceCue": "",
+          "minDisplaySeconds": 1.5,
+          "waitForInput": true,
+          "eventAfter": "",
+          "cue": "dissolve"
+        },
+        {
+          "lineId": "WifeReflection_08",
+          "speakerId": "Ye",
+          "text": "你等等，我这就……",
+          "portraitId": "Ye",
+          "voiceCue": "",
+          "minDisplaySeconds": 1.5,
+          "waitForInput": true,
+          "eventAfter": "",
+          "cue": "vanish"
+        },
+        {
+          "lineId": "WifeReflection_09",
+          "speakerId": "Wife",
+          "text": "说好陪我看的。",
+          "portraitId": "Wife",
+          "voiceCue": "",
+          "minDisplaySeconds": 1.5,
+          "waitForInput": true,
+          "eventAfter": "WifeFarewellSeen",
+          "cue": "empty_place"
+        }
+      ]
+    },
+    {
+      "sequenceId": "Inscription",
+      "requiresInscriptionSeen": true,
+      "lines": [
+        {
+          "lineId": "Inscription_01",
+          "speakerId": "Object",
+          "text": "中举之后，陪妻归宁，与友饮酒，教儿识字。",
+          "portraitId": "Object",
+          "voiceCue": "",
+          "minDisplaySeconds": 1.5,
+          "waitForInput": true,
+          "eventAfter": "",
+          "cue": "inscription"
+        },
+        {
+          "lineId": "Inscription_02",
+          "speakerId": "Ye",
+          "text": "这是......我说过的",
+          "portraitId": "Ye",
+          "voiceCue": "",
+          "minDisplaySeconds": 1.5,
+          "waitForInput": true,
+          "eventAfter": "",
+          "cue": "inscription"
+        },
+        {
+          "lineId": "Inscription_03",
+          "speakerId": "Ye",
+          "text": "妻，我没能陪伴你",
+          "portraitId": "Ye",
+          "voiceCue": "",
+          "minDisplaySeconds": 1.5,
+          "waitForInput": true,
+          "eventAfter": "InscriptionRead",
+          "cue": "inscription"
+        }
+      ]
+    },
+    {
+      "sequenceId": "AccidentEcho",
+      "requiresInscriptionSeen": false,
+      "lines": [
+        {
+          "lineId": "AccidentEcho_01",
+          "speakerId": "Ye",
+          "text": "手……腾不出来。",
+          "portraitId": "Ye",
+          "voiceCue": "",
+          "minDisplaySeconds": 1.5,
+          "waitForInput": false,
+          "eventAfter": ""
+        }
+      ]
+    },
+    {
+      "sequenceId": "BodyReveal",
+      "requiresInscriptionSeen": false,
+      "lines": [
+        {
+          "lineId": "BodyReveal_01",
+          "speakerId": "Narration",
+          "text": "村民把叶生的遗体捞上岸，捷报糊在他怀中，玉佩从衣袋滑落。",
+          "portraitId": "Narration",
+          "voiceCue": "",
+          "minDisplaySeconds": 1.5,
+          "waitForInput": true,
+          "eventAfter": "DeathAcknowledged",
+          "cue": "body"
+        }
+      ]
+    },
+    {
+      "sequenceId": "DinnerCall",
+      "requiresInscriptionSeen": false,
+      "lines": [
+        {
+          "lineId": "DinnerCall_01",
+          "speakerId": "Wife",
+          "text": "饭好了。",
+          "portraitId": "Wife",
+          "voiceCue": "",
+          "minDisplaySeconds": 1.5,
+          "waitForInput": true,
+          "eventAfter": "ReplyReady"
+        }
+      ]
+    },
+    {
+      "sequenceId": "FinalDinner",
+      "requiresInscriptionSeen": false,
+      "lines": [
+        {
+          "lineId": "FinalDinner_01",
+          "speakerId": "Ding",
+          "text": "趁热。",
+          "portraitId": "Ding",
+          "voiceCue": "",
+          "minDisplaySeconds": 1.5,
+          "waitForInput": true,
+          "eventAfter": ""
+        },
+        {
+          "lineId": "FinalDinner_02",
+          "speakerId": "Student",
+          "text": "先生，这一句，我又改过了。",
+          "portraitId": "Student",
+          "voiceCue": "",
+          "minDisplaySeconds": 1.5,
+          "waitForInput": true,
+          "eventAfter": ""
+        },
+        {
+          "lineId": "FinalDinner_03",
+          "speakerId": "Ye",
+          "text": "让我慢慢看。",
+          "portraitId": "Ye",
+          "voiceCue": "",
+          "minDisplaySeconds": 1.5,
+          "waitForInput": true,
+          "eventAfter": ""
+        },
+        {
+          "lineId": "FinalDinner_04",
+          "speakerId": "Ye",
+          "text": "你也坐。",
+          "portraitId": "Ye",
+          "voiceCue": "",
+          "minDisplaySeconds": 1.5,
+          "waitForInput": true,
+          "eventAfter": "LiteracyStrokeReady"
+        }
+      ]
+    },
+    {
+      "sequenceId": "FinalLiteracy",
+      "requiresInscriptionSeen": false,
+      "lines": [
+        {
+          "lineId": "FinalLiteracy_01",
+          "speakerId": "Child",
+          "text": "这个字，怎么念？",
+          "portraitId": "",
+          "voiceCue": "",
+          "minDisplaySeconds": 1.5,
+          "waitForInput": true,
+          "eventAfter": ""
+        },
+        {
+          "lineId": "FinalLiteracy_02",
+          "speakerId": "Ye",
+          "text": "这个字，是家。",
+          "portraitId": "Ye",
+          "voiceCue": "",
+          "minDisplaySeconds": 1.5,
+          "waitForInput": true,
+          "eventAfter": "FinalDinnerCompleted"
+        }
+      ]
+    }
+  ],
+  "completionRule": "ShardClaimed events come only from object interaction after prerequisites, never dialogue completion alone.",
+  "revision": "2026-10-18-user-script"
+}

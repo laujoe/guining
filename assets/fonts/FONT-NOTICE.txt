@@ -1,0 +1,11 @@
+归宁 · 内置字体
+
+霞鹜文楷 LXGW WenKai Regular v1.522（未修改）
+文件：LXGWWenKai-Regular.ttf
+来源：https://github.com/lxgw/LxgwWenKai/releases/tag/v1.522
+SHA-256：39ad71264b588165b469e35e6afb162a378dacd1f95348160240ba9038ac3009
+许可：SIL Open Font License 1.1，全文见 LXGWWenKai-OFL.txt。
+用途：标题、正文、对白、按钮、操作提示、人物簿与字幕。
+
+0.1.3 起公开版本统一使用霞鹜文楷；不打包历史云峰字体。
+字体权利归其作者；本游戏的非商业许可不改变字体原有许可。

@@ -1,0 +1,547 @@
+{
+  "schemaVersion": 1,
+  "boardId": "Manuscript_Intro",
+  "trayCapacity": 7,
+  "reserveCapacity": 3,
+  "undoCharges": 3,
+  "reserveCharges": 1,
+  "coordinateSpace": "TableCenteredReferencePixels",
+  "tileSize": [
+    140,
+    176
+  ],
+  "renderOrder": "greater depth first; depth zero on top",
+  "cards": [
+    {
+      "id": "A1",
+      "type": "Soldier",
+      "stackId": "A",
+      "depth": 0,
+      "designPosition": [
+        -460,
+        -115
+      ],
+      "blocks": [
+        "A2"
+      ],
+      "requiresNonDragonCleared": false
+    },
+    {
+      "id": "A2",
+      "type": "InkArrow",
+      "stackId": "A",
+      "depth": 1,
+      "designPosition": [
+        -460,
+        -90
+      ],
+      "blocks": [
+        "A3"
+      ],
+      "requiresNonDragonCleared": false
+    },
+    {
+      "id": "A3",
+      "type": "Brush",
+      "stackId": "A",
+      "depth": 2,
+      "designPosition": [
+        -460,
+        -65
+      ],
+      "blocks": [
+        "A4"
+      ],
+      "requiresNonDragonCleared": false
+    },
+    {
+      "id": "A4",
+      "type": "Kite",
+      "stackId": "A",
+      "depth": 3,
+      "designPosition": [
+        -460,
+        -40
+      ],
+      "blocks": [
+        "A5"
+      ],
+      "requiresNonDragonCleared": false
+    },
+    {
+      "id": "A5",
+      "type": "Inkstone",
+      "stackId": "A",
+      "depth": 4,
+      "designPosition": [
+        -460,
+        -15
+      ],
+      "blocks": [
+        "A6"
+      ],
+      "requiresNonDragonCleared": false
+    },
+    {
+      "id": "A6",
+      "type": "Dragon",
+      "stackId": "A",
+      "depth": 5,
+      "designPosition": [
+        -460,
+        10
+      ],
+      "blocks": [],
+      "requiresNonDragonCleared": true
+    },
+    {
+      "id": "B1",
+      "type": "Soldier",
+      "stackId": "B",
+      "depth": 0,
+      "designPosition": [
+        -90,
+        -115
+      ],
+      "blocks": [
+        "B2"
+      ],
+      "requiresNonDragonCleared": false
+    },
+    {
+      "id": "B2",
+      "type": "InkArrow",
+      "stackId": "B",
+      "depth": 1,
+      "designPosition": [
+        -90,
+        -90
+      ],
+      "blocks": [
+        "B3"
+      ],
+      "requiresNonDragonCleared": false
+    },
+    {
+      "id": "B3",
+      "type": "Brush",
+      "stackId": "B",
+      "depth": 2,
+      "designPosition": [
+        -90,
+        -65
+      ],
+      "blocks": [
+        "B4"
+      ],
+      "requiresNonDragonCleared": false
+    },
+    {
+      "id": "B4",
+      "type": "Kite",
+      "stackId": "B",
+      "depth": 3,
+      "designPosition": [
+        -90,
+        -40
+      ],
+      "blocks": [
+        "B5"
+      ],
+      "requiresNonDragonCleared": false
+    },
+    {
+      "id": "B5",
+      "type": "Inkstone",
+      "stackId": "B",
+      "depth": 4,
+      "designPosition": [
+        -90,
+        -15
+      ],
+      "blocks": [
+        "B6"
+      ],
+      "requiresNonDragonCleared": false
+    },
+    {
+      "id": "B6",
+      "type": "Dragon",
+      "stackId": "B",
+      "depth": 5,
+      "designPosition": [
+        -90,
+        10
+      ],
+      "blocks": [],
+      "requiresNonDragonCleared": true
+    },
+    {
+      "id": "C1",
+      "type": "Soldier",
+      "stackId": "C",
+      "depth": 0,
+      "designPosition": [
+        280,
+        -115
+      ],
+      "blocks": [
+        "C2"
+      ],
+      "requiresNonDragonCleared": false
+    },
+    {
+      "id": "C2",
+      "type": "InkArrow",
+      "stackId": "C",
+      "depth": 1,
+      "designPosition": [
+        280,
+        -90
+      ],
+      "blocks": [
+        "C3"
+      ],
+      "requiresNonDragonCleared": false
+    },
+    {
+      "id": "C3",
+      "type": "Brush",
+      "stackId": "C",
+      "depth": 2,
+      "designPosition": [
+        280,
+        -65
+      ],
+      "blocks": [
+        "C4"
+      ],
+      "requiresNonDragonCleared": false
+    },
+    {
+      "id": "C4",
+      "type": "Kite",
+      "stackId": "C",
+      "depth": 3,
+      "designPosition": [
+        280,
+        -40
+      ],
+      "blocks": [
+        "C5"
+      ],
+      "requiresNonDragonCleared": false
+    },
+    {
+      "id": "C5",
+      "type": "Inkstone",
+      "stackId": "C",
+      "depth": 4,
+      "designPosition": [
+        280,
+        -15
+      ],
+      "blocks": [
+        "C6"
+      ],
+      "requiresNonDragonCleared": false
+    },
+    {
+      "id": "C6",
+      "type": "Dragon",
+      "stackId": "C",
+      "depth": 5,
+      "designPosition": [
+        280,
+        10
+      ],
+      "blocks": [],
+      "requiresNonDragonCleared": true
+    },
+    {
+      "id": "D1",
+      "type": "Brush",
+      "stackId": "D",
+      "depth": 0,
+      "designPosition": [
+        -275,
+        -85
+      ],
+      "blocks": [
+        "D2"
+      ],
+      "requiresNonDragonCleared": false
+    },
+    {
+      "id": "D2",
+      "type": "Kite",
+      "stackId": "D",
+      "depth": 1,
+      "designPosition": [
+        -275,
+        -60
+      ],
+      "blocks": [
+        "D3"
+      ],
+      "requiresNonDragonCleared": false
+    },
+    {
+      "id": "D3",
+      "type": "Soldier",
+      "stackId": "D",
+      "depth": 2,
+      "designPosition": [
+        -275,
+        -35
+      ],
+      "blocks": [
+        "D4"
+      ],
+      "requiresNonDragonCleared": false
+    },
+    {
+      "id": "D4",
+      "type": "InkArrow",
+      "stackId": "D",
+      "depth": 3,
+      "designPosition": [
+        -275,
+        -10
+      ],
+      "blocks": [
+        "D5"
+      ],
+      "requiresNonDragonCleared": false
+    },
+    {
+      "id": "D5",
+      "type": "Inkstone",
+      "stackId": "D",
+      "depth": 4,
+      "designPosition": [
+        -275,
+        15
+      ],
+      "blocks": [
+        "D6"
+      ],
+      "requiresNonDragonCleared": false
+    },
+    {
+      "id": "D6",
+      "type": "Dragon",
+      "stackId": "D",
+      "depth": 5,
+      "designPosition": [
+        -275,
+        40
+      ],
+      "blocks": [],
+      "requiresNonDragonCleared": true
+    },
+    {
+      "id": "E1",
+      "type": "Brush",
+      "stackId": "E",
+      "depth": 0,
+      "designPosition": [
+        95,
+        -85
+      ],
+      "blocks": [
+        "E2"
+      ],
+      "requiresNonDragonCleared": false
+    },
+    {
+      "id": "E2",
+      "type": "Kite",
+      "stackId": "E",
+      "depth": 1,
+      "designPosition": [
+        95,
+        -60
+      ],
+      "blocks": [
+        "E3"
+      ],
+      "requiresNonDragonCleared": false
+    },
+    {
+      "id": "E3",
+      "type": "Soldier",
+      "stackId": "E",
+      "depth": 2,
+      "designPosition": [
+        95,
+        -35
+      ],
+      "blocks": [
+        "E4"
+      ],
+      "requiresNonDragonCleared": false
+    },
+    {
+      "id": "E4",
+      "type": "InkArrow",
+      "stackId": "E",
+      "depth": 3,
+      "designPosition": [
+        95,
+        -10
+      ],
+      "blocks": [
+        "E5"
+      ],
+      "requiresNonDragonCleared": false
+    },
+    {
+      "id": "E5",
+      "type": "Inkstone",
+      "stackId": "E",
+      "depth": 4,
+      "designPosition": [
+        95,
+        15
+      ],
+      "blocks": [
+        "E6"
+      ],
+      "requiresNonDragonCleared": false
+    },
+    {
+      "id": "E6",
+      "type": "Dragon",
+      "stackId": "E",
+      "depth": 5,
+      "designPosition": [
+        95,
+        40
+      ],
+      "blocks": [],
+      "requiresNonDragonCleared": true
+    },
+    {
+      "id": "F1",
+      "type": "Brush",
+      "stackId": "F",
+      "depth": 0,
+      "designPosition": [
+        465,
+        -85
+      ],
+      "blocks": [
+        "F2"
+      ],
+      "requiresNonDragonCleared": false
+    },
+    {
+      "id": "F2",
+      "type": "Kite",
+      "stackId": "F",
+      "depth": 1,
+      "designPosition": [
+        465,
+        -60
+      ],
+      "blocks": [
+        "F3"
+      ],
+      "requiresNonDragonCleared": false
+    },
+    {
+      "id": "F3",
+      "type": "Soldier",
+      "stackId": "F",
+      "depth": 2,
+      "designPosition": [
+        465,
+        -35
+      ],
+      "blocks": [
+        "F4"
+      ],
+      "requiresNonDragonCleared": false
+    },
+    {
+      "id": "F4",
+      "type": "InkArrow",
+      "stackId": "F",
+      "depth": 3,
+      "designPosition": [
+        465,
+        -10
+      ],
+      "blocks": [
+        "F5"
+      ],
+      "requiresNonDragonCleared": false
+    },
+    {
+      "id": "F5",
+      "type": "Inkstone",
+      "stackId": "F",
+      "depth": 4,
+      "designPosition": [
+        465,
+        15
+      ],
+      "blocks": [
+        "F6"
+      ],
+      "requiresNonDragonCleared": false
+    },
+    {
+      "id": "F6",
+      "type": "Dragon",
+      "stackId": "F",
+      "depth": 5,
+      "designPosition": [
+        465,
+        40
+      ],
+      "blocks": [],
+      "requiresNonDragonCleared": true
+    }
+  ],
+  "knownSolution": [
+    "A1",
+    "B1",
+    "C1",
+    "A2",
+    "B2",
+    "C2",
+    "A3",
+    "B3",
+    "C3",
+    "A4",
+    "B4",
+    "C4",
+    "A5",
+    "B5",
+    "C5",
+    "D1",
+    "E1",
+    "F1",
+    "D2",
+    "E2",
+    "F2",
+    "D3",
+    "E3",
+    "F3",
+    "D4",
+    "E4",
+    "F4",
+    "D5",
+    "E5",
+    "F5",
+    "A6",
+    "B6",
+    "C6",
+    "D6",
+    "E6",
+    "F6"
+  ],
+  "dragonGate": "all non-Dragon cards eliminated, including tray and reserve"
+}

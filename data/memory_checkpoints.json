@@ -1,0 +1,8 @@
+{
+  "arrival": {"title": "初到渡口", "chapter": "序章", "story_time": "未记", "routes": ["hub"]},
+  "memory_Ding": {"title": "记起一顿未赴的饭", "chapter": "丁公篇", "story_time": "未记", "routes": ["fragment"]},
+  "memory_Student": {"title": "记起一句被记住的教导", "chapter": "学生篇", "story_time": "未记", "routes": ["fragment"]},
+  "memory_Wife": {"title": "记起一封未读的家书", "chapter": "家书篇", "story_time": "未记", "routes": ["fragment"]},
+  "jade": {"title": "玉已合拢", "chapter": "合玉", "story_time": "未记", "routes": ["jade", "flip"]},
+  "ending": {"title": "归宁", "chapter": "终章", "story_time": "未记", "routes": ["credits"]}
+}

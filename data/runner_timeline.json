@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "timeUnit": "seconds from season start",
+  "seasonTransitionSeconds": 1.8,
+  "collisionIndependentFromBackgroundBlend": true,
+  "seasons": [
+    {
+      "id": "Spring",
+      "duration": 30,
+      "obstacles": [
+        {
+          "contactAt": 5,
+          "spawnAt": 3.5,
+          "type": "LowBranch",
+          "requiredAction": "Slide",
+          "warningSeconds": 1.5,
+          "width": 1.0,
+          "jumpHeight": 0,
+          "clearance": 0.85
+        },
+        {
+          "contactAt": 12,
+          "spawnAt": 10.5,
+          "type": "StoneStep",
+          "requiredAction": "Jump",
+          "warningSeconds": 1.5,
+          "width": 1.0,
+          "jumpHeight": 0.6,
+          "clearance": 0
+        },
+        {
+          "contactAt": 20,
+          "spawnAt": 18.5,
+          "type": "LowBranch",
+          "requiredAction": "Slide",
+          "warningSeconds": 1.5,
+          "width": 1.0,
+          "jumpHeight": 0,
+          "clearance": 0.85
+        }
+      ],
+      "wind": null,
+      "emptyTailSeconds": 3
+    },
+    {
+      "id": "Summer",
+      "duration": 30,
+      "obstacles": [
+        {
+          "contactAt": 5,
+          "spawnAt": 3.5,
+          "type": "DryingRack",
+          "requiredAction": "Slide",
+          "warningSeconds": 1.5,
+          "width": 1.0,
+          "jumpHeight": 0,
+          "clearance": 0.85
+        },
+        {
+          "contactAt": 12,
+          "spawnAt": 10.5,
+          "type": "Puddle",
+          "requiredAction": "Jump",
+          "warningSeconds": 1.5,
+          "width": 1.0,
+          "jumpHeight": 0.6,
+          "clearance": 0
+        },
+        {
+          "contactAt": 20,
+          "spawnAt": 18.5,
+          "type": "Puddle",
+          "requiredAction": "Jump",
+          "warningSeconds": 1.5,
+          "width": 1.0,
+          "jumpHeight": 0.6,
+          "clearance": 0
+        }
+      ],
+      "wind": null,
+      "emptyTailSeconds": 3
+    },
+    {
+      "id": "Autumn",
+      "duration": 30,
+      "obstacles": [
+        {
+          "contactAt": 5,
+          "spawnAt": 3.5,
+          "type": "Basket",
+          "requiredAction": "Jump",
+          "warningSeconds": 1.5,
+          "width": 1.0,
+          "jumpHeight": 0.6,
+          "clearance": 0
+        },
+        {
+          "contactAt": 12,
+          "spawnAt": 10.5,
+          "type": "BambooPole",
+          "requiredAction": "Slide",
+          "warningSeconds": 1.5,
+          "width": 1.0,
+          "jumpHeight": 0,
+          "clearance": 0.85
+        },
+        {
+          "contactAt": 20,
+          "spawnAt": 18.5,
+          "type": "StoneStep",
+          "requiredAction": "Jump",
+          "warningSeconds": 1.5,
+          "width": 1.0,
+          "jumpHeight": 0.6,
+          "clearance": 0
+        }
+      ],
+      "wind": null,
+      "emptyTailSeconds": 3
+    },
+    {
+      "id": "Winter",
+      "duration": 30,
+      "obstacles": [
+        {
+          "contactAt": 5,
+          "spawnAt": 3.5,
+          "type": "SnowMound",
+          "requiredAction": "Jump",
+          "warningSeconds": 1.5,
+          "width": 1.0,
+          "jumpHeight": 0.6,
+          "clearance": 0
+        },
+        {
+          "contactAt": 12,
+          "spawnAt": 10.5,
+          "type": "LowBranch",
+          "requiredAction": "Slide",
+          "warningSeconds": 1.5,
+          "width": 1.0,
+          "jumpHeight": 0,
+          "clearance": 0.85
+        }
+      ],
+      "wind": {
+        "start": 18,
+        "end": 24
+      },
+      "emptyTailSeconds": 6
+    }
+  ],
+  "finish": "Winter ends at 30 seconds regardless of stumbles; d interpolates to 0 during seconds 24-30"
+}

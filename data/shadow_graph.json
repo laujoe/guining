@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "rotationDegrees": [
+    0,
+    90,
+    180,
+    270
+  ],
+  "rotateSeconds": 0.65,
+  "seamSeconds": 0.18,
+  "maxScreenErrorPixels": 12,
+  "maxTangentErrorDegrees": 12,
+  "nodes": [
+    {
+      "id": "A",
+      "handle": "H0",
+      "checkpoint": "A"
+    },
+    {
+      "id": "B",
+      "handle": "H1",
+      "checkpoint": "B"
+    },
+    {
+      "id": "C",
+      "handle": "H2",
+      "checkpoint": "C"
+    },
+    {
+      "id": "D",
+      "handle": "",
+      "checkpoint": "D"
+    },
+    {
+      "id": "E",
+      "handle": "H3",
+      "checkpoint": "E"
+    },
+    {
+      "id": "F",
+      "handle": "",
+      "checkpoint": "F"
+    }
+  ],
+  "edges": [
+    {
+      "id": "AB",
+      "fromNode": "A",
+      "toNode": "B",
+      "viewIndex": 1,
+      "bidirectional": true,
+      "requiresLamp": false,
+      "lampMin": 0,
+      "lampMax": 1,
+      "geometryMode": "ProjectedSeamAtEndpointDepths"
+    },
+    {
+      "id": "BD",
+      "fromNode": "B",
+      "toNode": "D",
+      "viewIndex": 2,
+      "bidirectional": true,
+      "requiresLamp": false,
+      "lampMin": 0,
+      "lampMax": 1,
+      "geometryMode": "ProjectedSeamAtEndpointDepths"
+    },
+    {
+      "id": "BC",
+      "fromNode": "B",
+      "toNode": "C",
+      "viewIndex": 3,
+      "bidirectional": true,
+      "requiresLamp": false,
+      "lampMin": 0,
+      "lampMax": 1,
+      "geometryMode": "ProjectedSeamAtEndpointDepths"
+    },
+    {
+      "id": "CE",
+      "fromNode": "C",
+      "toNode": "E",
+      "viewIndex": 0,
+      "bidirectional": true,
+      "requiresLamp": false,
+      "lampMin": 0,
+      "lampMax": 1,
+      "geometryMode": "ProjectedSeamAtEndpointDepths"
+    },
+    {
+      "id": "EF",
+      "fromNode": "E",
+      "toNode": "F",
+      "viewIndex": 1,
+      "bidirectional": true,
+      "requiresLamp": true,
+      "lampMin": 0.42,
+      "lampMax": 0.62,
+      "geometryMode": "ProjectedSeamAtEndpointDepths"
+    }
+  ],
+  "solution": [
+    {
+      "node": "A",
+      "viewIndex": 1,
+      "edge": "AB"
+    },
+    {
+      "node": "B",
+      "viewIndex": 3,
+      "edge": "BC"
+    },
+    {
+      "node": "C",
+      "viewIndex": 0,
+      "edge": "CE"
+    },
+    {
+      "node": "E",
+      "lampU": 0.52,
+      "viewIndex": 1,
+      "edge": "EF"
+    }
+  ],
+  "spatial": {
+    "cameraRadius": 3.6,
+    "eyeHeight": 1.7,
+    "fov": 67.0,
+    "positions": {
+      "A": [
+        0,
+        0,
+        18
+      ],
+      "B": [
+        -10,
+        3,
+        0
+      ],
+      "C": [
+        11,
+        6,
+        -12
+      ],
+      "D": [
+        -24,
+        4,
+        -6
+      ],
+      "E": [
+        0,
+        10,
+        -28
+      ],
+      "F": [
+        -12,
+        10,
+        -47
+      ]
+    }
+  }
+}

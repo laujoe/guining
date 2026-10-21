@@ -1,0 +1,26 @@
+Required Notice: Copyright (c) 2026 归宁项目作者与贡献者 (Guining authors and contributors).
+
+归宁 / Guining — 非商业源码公开游戏
+
+代码（scripts/、scenes/、tools/、tests/、工程配置）：
+PolyForm Noncommercial License 1.0.0，完整文本见 LICENSE。
+https://polyformproject.org/licenses/noncommercial/1.0.0
+
+自有剧情、数据、美术、程序生成音效和文档：
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+（署名—非商业性使用—相同方式共享 4.0 国际），全文见 licenses/CC-BY-NC-SA-4.0.txt。
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+署名：归宁项目作者与贡献者；再分发时同时提供原始仓库链接并标明修改。
+
+允许在适用许可范围内免费试玩、学习、修改和非商业分享。
+不授予商业使用许可；未经权利人另行书面授权，不得销售本游戏、付费分发、
+植入广告或内购获利，或将本项目自有内容用于商业产品。
+具体授权范围以各许可全文为准。
+
+这是有非商业限制的 source-available 项目，不宣称符合 OSI 开源定义。
+本声明不改变第三方作品原有权利：
+- 霞鹜文楷：SIL Open Font License 1.1。
+- Kevin MacLeod 六首配乐：CC BY 4.0。
+- Godot 引擎及其组件：保留其原有许可。
+第三方署名见 THIRD-PARTY-NOTICES.md 与 assets/ 下的对应说明。
+发行包中的 ENGINE-LICENSES.txt 包含引擎及第三方组件许可。

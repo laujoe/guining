@@ -1,0 +1,22 @@
+name: 试玩问题
+description: 报告归宁的错误或操作障碍
+body:
+  - type: input
+    id: version
+    attributes:
+      label: 游戏版本与下载文件名
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: 系统、设备与显卡
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      description: 请说明所在章节、操作、预期结果与实际结果。不要附带个人信息或签名密钥。
+    validations:
+      required: true

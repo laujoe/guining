@@ -1,0 +1,30 @@
+《归宁》配乐鸣谢
+
+Music by Kevin MacLeod (incompetech.com)
+Licensed under Creative Commons: By Attribution 4.0 License
+https://creativecommons.org/licenses/by/4.0/
+
+Ripples — 主菜单、雾中渡口、拼玉、释怀
+https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100691
+
+Eastern Thought — 悬浮书楼、丁府往事、理稿与批注
+https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100682
+
+Shenyang — 灯下团圆、识字、终章
+https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1600066
+
+Asian Drums — 纸兵、纸龙、落水
+https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100396
+
+Long Note Three — 提灯迷宫、静水认身
+https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100424
+
+Willow and the Light — 妻子往事、四季追信、家书
+https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100591
+
+音频来自作者官网的原始 MP3；游戏播放时调整音量、循环和转场淡入淡出，未改写作品。
+GitHub 选曲线索：hjjbh1314/videologkit 的 chinese 分类（Asian Drums / Long Note Three），并扩展核对同作者曲库。
+https://github.com/hjjbh1314/videologkit/blob/main/src/videologkit/bgm/catalog.py
+
+完整下载地址、SHA-256 与使用场景见同目录 music-sources.json。
+旧版程序合成 WAV 保留作开发参考，当前游戏使用上述六首配乐。

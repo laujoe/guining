@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "gameTitle": "归宁",
+  "platform": "DesktopKeyboardMouse",
+  "targetSeconds": 900,
+  "durations": {
+    "prologue": 45,
+    "hubTotal": 40,
+    "ding": 220,
+    "student": 225,
+    "wife": 200,
+    "finale": 170
+  },
+  "memories": [
+    {
+      "id": "Ding",
+      "title": "淡饭余温",
+      "sceneId": "02_DingMemory",
+      "entryCheckpoint": "Entrance",
+      "fragmentId": "JadeA",
+      "completionEventId": "DingShardClaimed"
+    },
+    {
+      "id": "Student",
+      "title": "先生之风",
+      "sceneId": "03_StudentMemory",
+      "entryCheckpoint": "Manuscript",
+      "fragmentId": "JadeB",
+      "completionEventId": "StudentShardClaimed"
+    },
+    {
+      "id": "Wife",
+      "title": "若如初见",
+      "sceneId": "04_WifeMemory",
+      "entryCheckpoint": "Departure",
+      "fragmentId": "JadeC",
+      "completionEventId": "WifeShardClaimed"
+    }
+  ],
+  "lamp1": {
+    "minU": 0,
+    "maxU": 1,
+    "lengthBase": 1.2,
+    "lengthSlope": 2.4,
+    "heightStartsAt": 0.55,
+    "heightSlope": 1.2,
+    "gapMeters": 2.1,
+    "maxHeightError": 0.12,
+    "validU": [
+      0.375,
+      0.65
+    ]
+  },
+  "lamp2": {
+    "validU": [
+      0.42,
+      0.62
+    ],
+    "requiredViewIndex": 1
+  },
+  "battle": {
+    "moveSpeed": 4.5,
+    "dodgeDuration": 0.24,
+    "dodgeMeters": 2,
+    "dodgeInvulnerability": 0.18,
+    "dodgeCooldown": 0.85,
+    "brushWindup": 0.06,
+    "brushActive": 0.24,
+    "brushRecovery": 0.08,
+    "brushCooldown": 0.42,
+    "brushRadius": 1.35,
+    "reflectRadius": 1.5,
+    "reflectedSpeed": 8,
+    "hitInvulnerability": 1,
+    "retryOnHitNumber": 4,
+    "dragonTargets": 3,
+    "drumTargets": 2
+  },
+  "runner": {
+    "speed": 4.2,
+    "windSpeed": 2.4,
+    "jumpVelocity": 7.2,
+    "gravity": 20,
+    "coyoteTime": 0.12,
+    "jumpBuffer": 0.15,
+    "slideDuration": 0.65,
+    "slideHeight": 0.65,
+    "stumbleDuration": 0.55,
+    "stumbleProtection": 1.2,
+    "initialLetterDistance": 0.35,
+    "distancePerStumble": 0.12,
+    "maxLetterDistance": 0.8,
+    "distanceDecayPerSecond": 0.025
+  },
+  "jade": {
+    "snapDistanceReferencePixels": 48,
+    "holdReleaseSeconds": 1.5,
+    "inscription": "中举之后，陪妻归宁，与友饮酒，教儿识字。"
+  },
+  "ui": {
+    "referenceResolution": [
+      1920,
+      1080
+    ],
+    "safeMargin": [
+      96,
+      64
+    ],
+    "dialogueFontSize": 30,
+    "buttonFontSize": 28,
+    "bodyFontSize": 24,
+    "textScaleOptions": [
+      1,
+      1.15,
+      1.3
+    ]
+  }
+}

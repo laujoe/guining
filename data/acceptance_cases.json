@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "cases": [
+    {
+      "id": "F01",
+      "action": "从新存档进入序章",
+      "expected": "能看到自己名字；没有死亡、背面承诺或通关人物卡泄露",
+      "status": "not_run_in_unity"
+    },
+    {
+      "id": "F02",
+      "action": "六种记忆顺序全部完成",
+      "expected": "每种均收集三个不同碎片；任何顺序可翻玉进入终章",
+      "status": "not_run_in_unity"
+    },
+    {
+      "id": "F03",
+      "action": "首次完成与多次重温同一关",
+      "expected": "首次增加一个，重温不加；按钮文案与数量正确",
+      "status": "not_run_in_unity"
+    },
+    {
+      "id": "F04",
+      "action": "灯从短到长拖动",
+      "expected": "只有合法长度且高度吻合可入影；过短、过长都可理解",
+      "status": "not_run_in_unity"
+    },
+    {
+      "id": "F05",
+      "action": "转境全部视角与 D 死路",
+      "expected": "D 可原路返回；C 只在 0 度能上 E；任一安全平台不软锁",
+      "status": "not_run_in_unity"
+    },
+    {
+      "id": "F06",
+      "action": "影路中旋转与连按输入",
+      "expected": "被安全拒绝；不掉出、不重复映射、不累计旋转任务",
+      "status": "not_run_in_unity"
+    },
+    {
+      "id": "F07",
+      "action": "主槽第七张恰好消除",
+      "expected": "先消除再判满；无误判失败",
+      "status": "not_run_in_unity"
+    },
+    {
+      "id": "F08",
+      "action": "撤销消除、暂存、取回与满栏",
+      "expected": "全部物件守恒，辅助次数正确；能提示恢复或重试",
+      "status": "not_run_in_unity"
+    },
+    {
+      "id": "F09",
+      "action": "理稿固定解法与辅助解法",
+      "expected": "清空桌面、槽和备用区才能进纸兵；纸龙门有视觉解释",
+      "status": "not_run_in_unity"
+    },
+    {
+      "id": "F10",
+      "action": "反弹同时碰到玩家和目标",
+      "expected": "只反弹一次，不同帧重扣；重试纸龙不再玩理稿",
+      "status": "not_run_in_unity"
+    },
+    {
+      "id": "F11",
+      "action": "连续撞跑酷全部障碍",
+      "expected": "不 Game Over；最终接信；停留输入也不会无限堵在风中",
+      "status": "not_run_in_unity"
+    },
+    {
+      "id": "F12",
+      "action": "拼玉后未翻面退出再进",
+      "expected": "保持已拼合但背面仍隐藏；翻面后才显示全文",
+      "status": "not_run_in_unity"
+    },
+    {
+      "id": "F13",
+      "action": "事故段无操作与近救援物",
+      "expected": "均约 35 秒结束；没有伪获救按钮；只重演一次",
+      "status": "not_run_in_unity"
+    },
+    {
+      "id": "F14",
+      "action": "松手中断与点击替代",
+      "expected": "均可完成；死亡事实不改变；事件只提交一次",
+      "status": "not_run_in_unity"
+    },
+    {
+      "id": "F15",
+      "action": "终章等待“来了”",
+      "expected": "不自动替玩家回应；坐下后才能完成，人物簿解锁",
+      "status": "not_run_in_unity"
+    },
+    {
+      "id": "F16",
+      "action": "每个检查点关闭重开",
+      "expected": "回到合法状态，不丢碎片、不多出卡牌、不跳剧情",
+      "status": "not_run_in_unity"
+    },
+    {
+      "id": "F17",
+      "action": "损坏存档、旧备份、保存失败",
+      "expected": "可恢复或重新开始；不崩溃，不静默覆盖新版本",
+      "status": "not_run_in_unity"
+    },
+    {
+      "id": "F18",
+      "action": "720p、1080p、16:10、21:9；字体130%",
+      "expected": "关键文本不截断，按钮可点，牌槽和信不出安全区",
+      "status": "not_run_in_unity"
+    }
+  ]
+}
